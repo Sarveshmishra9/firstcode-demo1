@@ -137,6 +137,6 @@ let data= await b.text();
 console.log(data);
 }
 
-fetchh()
+fetch()
      
         
