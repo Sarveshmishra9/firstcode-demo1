@@ -80,17 +80,30 @@
 
 
 
-import React from "react";
-import Map from "./component/Map";
+// import React from "react";
+// import Map from "./component/Map";
+
+// function App() {
+//     return (
+//         <div>
+//             <h1 style={{ textAlign: "center", margin: "20px 0" }}>Movies List</h1>
+//             <Map />
+//         </div>
+//     );
+// }
+
+// export default App;
+
+import React from 'react';
+import UseRef from './component/UseRef.jsx';
 
 function App() {
-    return (
-        <div>
-            <h1 style={{ textAlign: "center", margin: "20px 0" }}>Movies List</h1>
-            <Map />
-        </div>
-    );
+   return (
+         
+         <UseRef />
+   );
 }
 
-export default App;
+export default App
+
 
